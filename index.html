@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Roshni Tanti | Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header>
+        <nav>
+
+            <div class="logo">
+                Roshni<span>.</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- HOME -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-text">♡ HELLO, I'M</p>
+
+            <h1>Roshni<br>
+                <span>Tanti</span>
+            </h1>
+
+            <h2>
+                BCA Student & Aspiring Developer
+            </h2>
+
+            <p class="intro">
+                I love turning ideas into beautiful websites
+                and learning something new every day.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn">
+                    View My Work ♡
+                </a>
+
+                <a href="#contact" class="btn second-btn">
+                    Let's Connect
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Decorative circle -->
+
+        <div class="profile-card">
+            <div class="profile-image">
+                <img src="images/profile.jpeg" alt="Roshni Tanti">
+            </div>
+             <p>♡ coding • creating • learning ♡</p>
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+        <section id="about" class="about">
+
+    <div class="about-heading">
+        <p>♡ ABOUT ME</p>
+        <h2>More than just<br><span>a coding student.</span></h2>
+    </div>
+
+    <div class="about-content">
+
+        <div class="about-box">
+            <p>
+                Hey! I'm Roshni — a BCA student who enjoys turning ideas
+                into simple, creative and meaningful digital experiences.
+            </p>
+
+            <p>
+                I'm currently exploring web development and programming,
+                while building my skills through projects and hands-on
+                learning. I believe that every small project is a chance
+                to learn something new.
+            </p>
+
+            <p>
+                Outside of coding, I love being creative, trying new things
+                and working on ideas that let me express myself. ✿
+            </p>
+        </div>
+
+        <div class="about-details">
+            <div>
+                <span>01</span>
+                <h3>Education</h3>
+                <p>BCA · 2nd Year</p>
+            </div>
+
+            <div>
+                <span>02</span>
+                <h3>Currently Learning</h3>
+                <p>Web Development</p>
+            </div>
+
+            <div>
+                <span>03</span>
+                <h3>Goal</h3>
+                <p>Creative Developer</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="skills">
+
+    <div class="skills-heading">
+        <p>♡ MY SKILLS</p>
+        <h2>Things I love<br><span>to create with.</span></h2>
+    </div>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <div class="skill-icon">C</div>
+            <h3>C</h3>
+            <p>Programming & problem solving</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">C++</div>
+            <h3>C++</h3>
+            <p>Object-oriented programming</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">🌐</div>
+            <h3>HTML & CSS</h3>
+            <p>Creating beautiful web pages</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">JS</div>
+            <h3>JavaScript</h3>
+            <p>Interactive web experiences</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">📊</div>
+            <h3>MS Excel</h3>
+            <p>Data handling & spreadsheets</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">📝</div>
+            <h3>MS Word</h3>
+            <p>Documents & formatting</p>
+        </div>
+
+        <div class="skill-card">
+         <div class="skill-icon">🎨</div>
+         <h3>UI Design</h3>
+         <p>Clean & aesthetic interfaces</p>
+        </div>
+
+        <div class="skill-card">
+        <div class="skill-icon">🌱</div>
+        <h3>Learning</h3>
+        <p>Always exploring new technologies</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- PROJECTS -->
+
+<section id="projects" class="projects">
+
+    <div class="projects-heading">
+        <p>♡ MY WORK</p>
+        <h2>Things I've <span>worked on.</span></h2>
+    </div>
+
+    <div class="projects-grid">
+
+        <div class="project-card" onclick="openProject(0)">
+            <span class="project-number">01</span>
+            <div class="project-icon">🌷</div>
+            <h3>Personal Portfolio</h3>
+            <span class="view-project">View details ↗</span>
+        </div>
+
+        <div class="project-card" onclick="openProject(1)">
+            <span class="project-number">02</span>
+            <div class="project-icon">💻</div>
+            <h3>C Programming</h3>
+            <span class="view-project">View details ↗</span>
+        </div>
+
+        <div class="project-card" onclick="openProject(2)">
+            <span class="project-number">03</span>
+            <div class="project-icon">⚙️</div>
+            <h3>C++ Coursework</h3>
+            <span class="view-project">View details ↗</span>
+        </div>
+
+        <div class="project-card" onclick="openProject(3)">
+            <span class="project-number">04</span>
+            <div class="project-icon">📊</div>
+            <h3>Excel Work</h3>
+            <span class="view-project">View details ↗</span>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Project Popup -->
+<div id="projectModal" class="project-modal">
+
+    <div class="modal-content">
+
+        <button class="close-modal" onclick="closeProject()">×</button>
+
+        <span id="modalNumber"></span>
+        <div id="modalIcon" class="modal-icon"></div>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+
+        <div id="modalTags" class="modal-tags"></div>
+
+    </div>
+
+</div>
+
+    <!-- Education -->
+
+    <section id="education" class="education">
+
+    <div class="education-heading">
+        <p>♡ MY JOURNEY</p>
+        <h2>Education & <span>learning.</span></h2>
+    </div>
+
+    <div class="education-card">
+
+        <div class="education-year">2025 — 2029</div>
+
+        <div class="education-info">
+            <span>UNDERGRADUATE</span>
+            <h3>Bachelor of Computer Applications</h3>
+            <p>Cotton University · Guwahati, Assam</p>
+            <small>
+                Currently pursuing BCA and exploring programming,
+                web development and creative technology.
+            </small>
+        </div>
+
+        <div class="education-badge">BCA</div>
+
+    </div>
+
+</section>
+
+    <!-- Certificate -->
+
+    <section id="certificates" class="certificates">
+
+    <div class="certificates-heading">
+        <p>♡ CERTIFICATES</p>
+        <h2>Learning & <span>achievements.</span></h2>
+    </div>
+
+    <div class="certificates-grid">
+
+        <div class="certificate-card">
+            <div class="certificate-icon">✦</div>
+            <span class="certificate-number">01</span>
+
+            <h3>Introduction to Generative AI</h3>
+            <p>Google Cloud</p>
+            <a href="certificates/Certificate (Introduction to Gen AI).pdf" target="_blank">
+             View Certificate ↗
+            </a>
+
+            <span class="certificate-type">Certificate</span>
+        </div>
+
+        <div class="certificate-card">
+            <div class="certificate-icon">✧</div>
+            <span class="certificate-number">02</span>
+
+            <h3>Introduction to Artificial Intelligence</h3>
+            <p>Simplilearn</p>
+            <a href="certificates/Certificate (Introduction to AI).pdf" target="_blank">
+            View Certificate ↗
+            </a>
+
+            <span class="certificate-type">Certificate</span>
+        </div>
+
+    </div>
+
+</section>
+
+    
+
+
+    <!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+    <div class="contact-heading">
+        <p>♡ LET'S CONNECT</p>
+        <h2>Say <span>hello.</span></h2>
+    </div>
+
+    <div class="contact-links">
+
+        <a href="mailto:tantiroshni3@gmail.com" class="contact-card">
+            <span>✉</span>
+            <div>
+                <small>EMAIL</small>
+                <p>tantiroshni3@gmail.com</p>
+            </div>
+        </a>
+
+        <a href="https://www.linkedin.com/" target="_blank" class="contact-card">
+            <span>in</span>
+            <div>
+                <small>LINKEDIN</small>
+                <p>Connect with me</p>
+            </div>
+        </a>
+
+        <a href="https://github.com/" target="_blank" class="contact-card">
+            <span>⌘</span>
+            <div>
+                <small>GITHUB</small>
+                <p>View my work</p>
+            </div>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Resume -->
+
+<section class="resume">
+
+    <div class="resume-box">
+        <p>♡ MY RESUME</p>
+
+        <h2>Let's work <span>together.</span></h2>
+
+        <p class="resume-text">
+            Want to know more about me and my skills?
+            Have a look at my resume.
+        </p>
+
+        <a href="resume/Roshni-Tanti-CV.pdf" target="_blank" class="resume-btn">
+            View Resume ↗
+        </a>
+
+    </div>
+
+</section>
+
+
+    <!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-name">Roshni Tanti</div>
+
+    <p>Made with ♡ & code</p>
+
+    <div class="footer-links">
+        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/" target="_blank">GitHub</a>
+    </div>
+
+    <small>© 2026 Roshni Tanti. All rights reserved.</small>
+
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
